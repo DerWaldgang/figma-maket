@@ -11,6 +11,7 @@ body {
 }
 .header {
     display: flex;
+    width: 100rem;
     height: 116px;
     align-items: center;
     
@@ -19,7 +20,8 @@ body {
 .header__logo {
     display:flex;
     justify-content: flex-start;
-    margin-left: 80px;
+    margin-left: 5.7%;
+    max-width: 100%;
 
 }
 
@@ -50,7 +52,7 @@ body {
     align-items: center;
     display: flex;
     color: #F7941E;
-    margin-right: 34px;
+    margin-right: 5.7%;
     background: #FAFAFA;
     font-size: 18px;
     line-height: 22px;
@@ -61,7 +63,7 @@ body {
 
 .content {
     display: flex;
-    width: 100%;
+    width: 100rem;
     height: 1400px;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -73,7 +75,6 @@ body {
     display: flex;
     width: 50%;
     height: 50%;
-
 }
 
 .first__content {
@@ -112,8 +113,13 @@ body {
     font-weight: 300;
     color:#FFFFFF;
 }
+
+.second__content > img {
+    max-width: 100%;
+}
+
 .third__content > img {
-    width: 712px;
+    max-width: 100%;
 }
 
 .fourth__content {
@@ -152,6 +158,9 @@ body {
     margin-left: 103px;
 }
 
+.gift {
+    width: 100rem;
+}
 .gift__head {
     display: flex;
     width: 100%;
@@ -223,9 +232,14 @@ body {
     margin-bottom: 137px;
 }
 
+.gif_pic > .gif_img > img {
+    max-width: 100%;
+}
+
 .start {
     display: flex;
     flex-wrap: wrap;
+    width: 100rem;
     height: 240px;
     background-color:#F7941E;
     padding-left: 235px;
@@ -288,7 +302,7 @@ body {
 
 .blog_head {
     display: flex;
-    width: 100%;
+    width: 100rem;
     height: 246px;
     flex-direction: column;
     align-items: center;
@@ -315,9 +329,14 @@ body {
 
 .blog_family {
     display: flex;
+    width: 100rem;
     height: 370px;
     padding-left:135px;
     padding-right: 135px;
+}
+
+.blog_photo > img {
+    max-width: 100%;
 }
 
 .blog_way {
@@ -357,6 +376,8 @@ body {
 
 .blog_articles {
     display: flex;
+    width: 100rem;
+    /* не отображается на многих устройствах */
     justify-content: space-between;
     height: 410px;
     padding-left: 135px;
@@ -448,6 +469,7 @@ body {
 }
 
 .footer_top {
+    width: 100rem;
     height: 188px;
     padding: 53px;
     padding-right: 250px;
@@ -485,11 +507,15 @@ body {
 
 .footer_logo {
     justify-content: center;
-    align-self:center
 
 }
 
+.footer_logo > img {
+    max-width: 100%;
+}
+
 .footer_center {
+    width: 100rem;
     height: 167px;
     padding-left: 572px;
     padding-right: 572px;
@@ -503,6 +529,10 @@ body {
     align-content: flex-start;
 }
 
+.center_div > img {
+    max-width: 100%;
+}
+
 .center_imgs {
     display: flex;
     justify-content: center;
@@ -511,8 +541,13 @@ body {
     margin-top: 55.8px;
 }
 
+.center_imgs {
+    max-width: 100%;
+}
+
 .footer_bot {
     display: flex;
+    width: 100%;
     height: 55px;
     justify-content: center;
     justify-content: space-evenly;
@@ -528,4 +563,5 @@ body {
     height: 25px;
     width: 94px;
 }
+
 
